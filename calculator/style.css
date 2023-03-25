@@ -13,10 +13,10 @@
 }
 
 .calculator{
-    background-color: aqua;
+    background: color #22252d;;
     width: 100%;
     min-height: 640px;
-    max-height: 380px;
+    max-width: 380px;
     display: flex;
     flex-direction: column;
     border-radius: 2rem;
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    color: black ;
+    color: rgb(255, 255, 255) ;
     text-align: right;
     flex: 1 1 0%;
 }
