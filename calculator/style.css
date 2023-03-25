@@ -65,7 +65,7 @@
 	color: #26FED7;
 }
 
-.keys {
+.buttons {
 	background-color: #292D36;
 	padding: 1.5rem;
 	border-radius: 1.5rem 1.5rem 0 0;
@@ -76,7 +76,7 @@
 	box-shadow: 0px -2px 16px rgba(0, 0, 0, 0.2);
 }
 
-.keys .key {
+.buttons .button {
 	position: relative;
 	cursor: pointer;
 
@@ -89,7 +89,7 @@
 	user-select: none;
 }
 
-.keys .key span {
+.buttons .button span {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -100,14 +100,14 @@
 	color: #FFF;
 }
 
-.keys .key:hover {
+.buttons .button:hover {
 	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
-.keys .key.operator span {
+.buttons .button.operator span {
 	color: #EB6666;
 }
 
-.keys .key.action span {
+.buttons .button.action span {
 	color: #26FED7;
 }

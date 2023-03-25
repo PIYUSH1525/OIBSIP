@@ -1,13 +1,13 @@
-const keys = document.querySelectorAll('.key');
+const buttons = document.querySelectorAll('.button');
 const display_input = document.querySelector('.display .input');
 const display_output = document.querySelector('.display .output');
 
 let input = "";
 
-for (let key of keys) {
-	const value = key.dataset.key;
+for (let button of buttons) {
+	const value = button.dataset.button;
 
-	key.addEventListener('click', () => {
+	button.addEventListener('click', () => {
 		if (value == "clear") {
 			input = "";
 			display_input.innerHTML = "";
