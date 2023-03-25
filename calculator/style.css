@@ -13,7 +13,7 @@
 }
 
 .calculator {
-	background-color: #22252D;
+	background-color: #26FED7;
 	width: 100%;
 	max-width: 375px;
 	min-height: 640px;
@@ -29,7 +29,7 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: flex-end;
-	color: white;
+	color: rgb(0, 0, 0);
 	text-align: right;
 	flex: 1 1 0%;
 }
@@ -45,28 +45,30 @@
 
 .display .input {
 	width: 100%;
-	font-size: 1.25rem;
+	font-size: 2rem;
+    font-weight: 500;
 	margin-bottom: 0.5rem;
+    
 }
 
 .display .output {
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 700;
 	width: 100%;
 	white-space: nowrap;
 }
 
 .display .operator {
-	color: #EB6666;
+	color: #ff0000;
 }
 
 .display .brackets,
 .display .percent {
-	color: #26FED7;
+	color: #000000;
 }
 
 .buttons {
-	background-color: #292D36;
+	background-color: #b3bacc;
 	padding: 1.5rem;
 	border-radius: 1.5rem 1.5rem 0 0;
 	display: grid;
@@ -105,9 +107,9 @@
 }
 
 .buttons .button.operator span {
-	color: #EB6666;
+	color: #d1f506;
 }
 
 .buttons .button.action span {
-	color: #26FED7;
+	color: #c4fe26;
 }
