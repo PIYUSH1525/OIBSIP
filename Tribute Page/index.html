@@ -1,46 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style1.css">
-    <title>Hedy Lamarr</title>
-</head>
-<body>
-    <main id="main">
-        <h1 id="title">Hedy Lamarr</h1>
-        <div id="img-div">
-            <!-- The img element should responsively resize, relative to the width of its parent element, without exceeding its original size. -->
-            <!-- The img element should be centered within its parent element. -->
-            <img src="./img/hedy.jpg" id="image" alt="Hedy Lamarr">
-            <small id="img-caption">Hedy Lamarr: A Hollywood beauty who defied the odds by being a first-class inventor. creating a visionary device that led to Wi-Fi and GPS</small>
-        </div>
-        <div id="tribute-info">
-            <h1 class="title"> The Life of Hedy</h1>
-            <p>1914: A star is born.</p>
+<html lang='en'>
 
-            <p>As a child, Lamarr was always interested in acting and was very fascinated by theatre and film. At the age of 12, she won a beauty contest in Vienna. I think this was among the moments that really steered her towards her journey to Hollywood.</p>
-            
-            <p>The Golden Age of Hollywood created some of the best-known celebrities in the history of moving pictures. Marilyn Monroe, Rita Hayworth, Lauren Bacall, Audrey Hepburn―these are just some of the household names.</p>
-            
-            <p>But in the early days of Hollywood, one woman was considered the most beautiful of them all–and later proved to be much, much more. Hedy Lamarr, an Austrian-born actress, starred in a number of black-and-white box-office hits, like the 1941 Ziegfeld Girl and Experiment Perilous in 1944.</p>
-            
-        <p>Something interesting abou her is that she was not just a pretty face on the screens but was also a self taught scientist. She was an admirable woman who not only made films worth watching But also came up with some cutting edge technology that later led to the invention of Wi-Fi and GPS. Pretty dope huh!</p>
-            
-    <p>The most beautiful woman in the world had experience with military equipment because her ex-husband, from whom she fled due to his staunch support for the Nazi Party, was an ammunition manufacturer, deeply involved with the arms industry of the Third Reich.</p>
-            
-            <p>She became familiar with the developing weapons industry of the time, so much so that she could pinpoint the weak spots within military technology that could be corrected.</p>
-            
-        <p>At the time, the radio-guided torpedoes that used wireless technology were easily jammed by enemy frequency, causing the missile to divert its course. Together with Antheil, she saw an opportunity to develop a device capable of effectively overcoming any jamming distributed by the enemy. Using a principle based on the paper player piano rolls, the signal would constantly be “hopping,” becoming impossible to track.</p>
-            
-            <p>The principle enabled the jamming-resistant torpedo to use 88 possible frequencies, for that was the number of keys on a piano, creating a random code, known only to the controller of the torpedo. In this way, the signal became highly resilient to jamming and almost impossible to intercept.</p>
-            
-        <p> Even though experiments involving the spread-spectrum radio were conducted in the early 20th century, with discoveries even being implemented by the German Army during World War I, the novel approach of using the piano principle and the exact role of the device was solely Lamar’s and Antheil’s invention.</p>
-            
-           <p> 2000: Dies at the age of 86</p></div>
-        <small> For more information, check out <a id="tribute-link" href="https://en.wikipedia.org/wiki/Hedy_Lamarr" target="_blank">Hedy Lamarr</a> on Wikipedia</small>
-    </main>
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Basic HTML</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <main>
+    <nav class="navBar">
+      <h1><b>PIYUSH NEGI PORTFOLIO</b></h1>
+      <div class="navigationmenu">
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills I Got</a>
+        <a href="#projects">Project</a>
+        <a href="#aechivement">Aechivements</a>
+        <a href="#contactForm">Lets Connect</a>
+      </div>
+    </nav>
+    <section class="herosection">
+      <img class="profileImage" src="Images/man-shows-gesture-great-idea_10045-637.webp">
+
+      <div class="herosectionDetails">
+        <h1>PIYUSH NEGI</h1>
+        <h3>STUDENT AT DIT UNIVERSITY</h3>
+      </div>
+    </section>
+    <section class="AboutMe" id="#aboutMe">
+      <h1>ME AND MYSELF </h1>
+      <p>
+        Hello Everyone My name is Piyush Negi. Currently I am Pursuing B-Tech in computer science and engineering from
+        DIT University Dehradun.
+        I am fresher and now Currently I am looking ForFreelance Jobs . I have a Greate Knowledge of computer
+        programming as well as creative softwares
+        like Adobe Photoshop , Adobe After Effects, Filmora And Many More . I am looking for
+        a job in the field of software development where I can give my 100% best to arise the level of company As Well
+        As
+        My Country. Currently My dream company is TCS Because TCS provides Us a vast no of opportunites For Our Future
+        and
+        Helps Us to Grow .
+      </p>
+    </section>
+    <section class="skillsAndprojects">
+      <div class="skills" id="skills">
+        <h1 class="cardHeading">Skills</h1>
+        <img src="Images/html.svg" title="HTML">
+        <img src="Images/cc.svg" title="C++">
+        <img src="Images/python.svg" title="Python">
+        <img src="Images/mysql.svg" title="Mysql">
+        <img src="Images/After effect.svg" title="AfterEffect">
+        <img src="Images/Photoshop.svg" title="Adobe Photoshop">
+        <img src="Images/c.svg" title="C">
+      </div>
+      <div class="projects" id="projects">
+        <h1 class="cardHeading"> Projects</h1>
+        <div class="Projectcontainer">
+          <img src="Images/After effect.svg">
+          <div class="projectdescription">
+            <h4>Editior</h4>
+            <p> Worked As a Editor For Many Content Creators
+            </p>
+          </div>
+        </div>
+
+        <div class="projects" id="projects">
+          <div class="Projectcontainer">
+            <img src="Images/html.svg">
+            <div class="projectdescription">
+              <h4>Hotstar Clone</h4>
+              <p>Disney Plus Hotstar clone using HTML And CSS
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="Aechive">
+      <div class="aechivement" id="aechivement">
+        <h1 class="cardHeading"> Aechivements</h1>
+        <div class="aechivement">
+          <img src="Images/game.svg" title="Gamer">
+          <div class="aechivement">
+            <h4>GAMER</h4>
+
+          </div>
+        </div>
+
+        <div class="aechivement" id="aechivement">
+          <div class="aechivement">
+            <img src="Images/Photoshop.svg" title="Adobe Photoshop">
+            <div class="aechivement">
+              <h4>EDITOR</h4>
+
+            </div>
+          </div>
+    </section>
+
+
+    <section class="contactForm" id="contactForm">
+      <h1>Let's Connect! </h1>
+      <div class="formGroup">
+        <label for="name">Enter Full Name</label><br />
+        <input type="text" id="name" placeholder="Full Name" />
+      </div>
+      <div class="formGroup">
+        <label for="Email">Email</label><br />
+        <input type="text" id="name" placeholder="Email" />
+      </div>
+      <div class="formGroup">
+        <label for="Message"> Message</label><br />
+        <textarea placeholder="Send Your Message" id="message" name="w3review" rows="5" cols="70"></textarea>
+      </div>
+      <button class="SubmitButton" onclick={submit()}>Connect</button>
+    </section>
+  </main>
 </body>
+
 </html>
