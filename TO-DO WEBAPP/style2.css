@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
 }
 
@@ -39,14 +39,19 @@ header ,form{
 form input, form button{
     padding: 0.5rem;
     padding-left: 1rem;
-    font-size: 1.8rem;
+    font-size: 20px;
     border: none;
-    background: white;
+    background: #f4f4f425;
+    color: white;
     border-radius: 2rem;
 }
+form input::placeholder{
+ color: #ffffff70;
+}
+
 form button {
     color: rgb(255, 200, 0);
-    background: white;
+    background: #f4f4f425;
     cursor: pointer;
     transition: all 0.3 ease;
     margin-left: 0.5rem;
@@ -84,6 +89,7 @@ form button:hover {
     align-items: center;
     transition: 0.5s;
     border-radius: 2rem;
+    gap: .8rem;
 }
 
 .todo li {
@@ -100,7 +106,7 @@ form button:hover {
 }
 
 .complete-btn {
-    background: rgb(255, 200, 0);
+   background: #f4f4f425;
 }
 
 .trash-btn {
@@ -144,7 +150,7 @@ select {
 }
 
 select {
-    color:rgb(255, 200, 0);
+    background: #f4f4f425;
     width: 10rem;
     height: 3.2rem;
     cursor: pointer;
