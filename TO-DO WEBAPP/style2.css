@@ -74,8 +74,9 @@ form button:hover {
 }
 
 .todo-list {
-    min-width: 30%;
+    min-width: 100%;
     list-style: none;
+   
 }
 
 .todo {
@@ -106,13 +107,13 @@ form button:hover {
 }
 
 .complete-btn {
-   background: #f4f4f425;
+   background: #74c674;
 }
 
 .trash-btn {
     border-top-right-radius: 1.75rem;
     border-bottom-right-radius: 1.75rem;
-    background: rgb(171, 171, 171);
+    background: rgb(253, 0, 0);
 }
 
 .todo-item {
