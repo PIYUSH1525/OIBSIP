@@ -14,7 +14,10 @@
         <title>To Do List</title>
     </head>
 <body> 
-        <header><h1>TODO LIST</h1></header>
+
+        
+        <div class="container">
+            <header><h1>&#127817TODO LIST</h1></header>
         <form action="">
             <input type="text" class="todo-input">
             <button class="todo-button" type="submit">
@@ -23,8 +26,8 @@
             <div class="select"> 
                 <select name="todos" class="filter-todo">
                     <option value="all">ALL</option>
-                    <option value="completed">Completed</option>
-                    <option value="incomplete">Incompleted</option>
+                    <option value="completed" class="hover">Completed</option>
+                    <option value="incomplete" class="hover">Incompleted</option>
                 </select>
             </div>
         </form>
@@ -32,6 +35,7 @@
             <ul class="todo-list"></ul>
 
         </div>
+    </div>
         <!-- ---------------------------javascript link ----------------------------->
         <script src="./script.js"></script>
 </body>

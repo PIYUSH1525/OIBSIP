@@ -1,18 +1,34 @@
+:root{
+    --radius: 15px;
+    --app-width: 600px;
+}
 *{
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 
 body{
-    background-color:mediumslateblue ;
+    background: url(bg.jpg) center;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    min-height: 105vh;
+    min-height: 100vh;
 }
 
 header{
     font-size: 2rem;
+    
+}
+.container{
+    color: #ffffffb0;
+    background-color: #ffffff21;
+    width: var(--app-width);
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: 0 15px 40px -20px black;
 }
 header ,form{
     min-height: 20vh;
@@ -150,3 +166,4 @@ select {
     background: white;
     color: rgb(255, 200, 0);
 }
+
